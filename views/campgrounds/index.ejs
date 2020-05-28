@@ -1,12 +1,12 @@
-<%- include("partials/header") %>
+<%- include("../partials/header") %>
 
 <div class="container">
     <header class="jumbotron">
         <div>
             <h1>Welcome to KarmaSharma!</h1>
-            <p>View nature pictures of all over the world.</p>
+            <p>View best games of all over the world.</p>
             <p>
-                <a class="btn btn-primary btn-large" href="/campgrounds/new">Create New Campgrounds</a><br>
+                <a class="btn btn-primary btn-large" href="/campgrounds/new">Create New Games Detail</a><br>
             </p>
         </div>
     </header>
@@ -19,6 +19,9 @@
                     <div class="caption">
                         <h4><%= campground.name %></h4>
                     </div>
+                    <p id="aligninfo">
+                        <a href="/campgrounds/<%= campground._id %>" class="btn btn-primary">More Info</a>
+                    </p>
                 </div>
             </div>
         <% }); %>
@@ -26,4 +29,4 @@
     <br>
 </div>
 
-<%- include("partials/footer") %>
+<%- include("../partials/footer") %>

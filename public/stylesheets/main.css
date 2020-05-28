@@ -1,0 +1,25 @@
+body {
+    background: black;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+.displayform {
+    display: inline;
+}
+
+#aligninfo {
+    margin: 0px;
+    padding: 5%;
+    text-align: center;
+}
